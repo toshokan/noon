@@ -108,7 +108,6 @@
 //! ```
 pub(crate) mod concrete;
 pub mod entry;
-pub mod fragment;
 pub mod hlist;
 pub mod mediator;
 
