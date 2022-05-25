@@ -191,5 +191,5 @@ mod test {
 #[cfg(doctest)]
 mod external_doctests {
     #[doc = include_str!("../README.md")]
-    struct Null;
+    struct Readme;
 }
