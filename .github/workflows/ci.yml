@@ -1,0 +1,38 @@
+name: CI
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+jobs:
+  check_crate:
+    name: Check crate
+    runs-on: "ubuntu-latest"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+      - name: Toolchain
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: 'stable'
+          override: true
+      - name: Cargo check
+        uses: actions-rs/cargo@v1
+        with:
+          command: 'check'
+  test:
+    name: Test crate
+    runs-on: "ubuntu-latest"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+      - name: Toolchain
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: 'stable'
+          override: true
+      - name: Cargo Test
+        uses: actions-rs/cargo@v1
+        with:
+          command: 'test'
+        
