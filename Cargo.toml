@@ -1,6 +1,6 @@
 [package]
 name = "noon"
-version = "0.1.0"
+version = "0.1.1"
 description = "Strongly-typed, compile-time mediator"
 authors = ["toshokan <toshokan@shojigate.net>"]
 homepage = "https://github.com/toshokan/noon"
