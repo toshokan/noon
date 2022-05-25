@@ -2,7 +2,7 @@
 [![Crates.io](https://img.shields.io/crates/v/noon)](https://crates.io/crates/noon)
 [![Crates.io](https://img.shields.io/crates/l/noon)](https://crates.io/crates/noon)
 [![docs.rs](https://img.shields.io/docsrs/noon)](https://docs.rs/noon)
-[![GitHub Actions](https://github.com/toshokan/noon/actions/workflows/ci.yml/badge.svg)](https://github.com/toshokan/noon/actions)
+[![GitHub Actions](https://github.com/toshokan/noon/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/toshokan/noon/actions)
 
 Strongly-typed, compile-time mediator.
 
