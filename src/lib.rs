@@ -108,7 +108,6 @@
 //! ```
 pub(crate) mod concrete;
 pub mod entry;
-pub mod fragment;
 pub mod hlist;
 pub mod mediator;
 
@@ -192,5 +191,5 @@ mod test {
 #[cfg(doctest)]
 mod external_doctests {
     #[doc = include_str!("../README.md")]
-    struct Null;
+    struct Readme;
 }
